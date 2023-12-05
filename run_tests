@@ -1,0 +1,3 @@
+#!/bin/bash
+# Execute tests
+docker-compose run --rm aocpython pytest /app/.

@@ -1,0 +1,8 @@
+services:
+    aocpython:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - .:/app
+        restart: "no"

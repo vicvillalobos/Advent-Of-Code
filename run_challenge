@@ -1,0 +1,4 @@
+#!/bin/bash
+# Execute the python script for the given day and part
+# Run like this: ./run_challenge 2023 1 1
+docker-compose run --rm aocpython sh -c "cd /app/$1/$2 && python3 task_$1_$2_$3.py"
