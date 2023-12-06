@@ -1,6 +1,6 @@
 import re
 
-def wordProcessing(word: str) -> int:
+def word_processing(word: str) -> int:
     lg_len = len(word) + 1
     
     text = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
@@ -41,7 +41,7 @@ def execute(data_file):
         data_sum = 0
 
         for param in parameters:
-            interval = wordProcessing(param)
+            interval = word_processing(param)
             intervals.append(interval)
 
             data_sum += interval

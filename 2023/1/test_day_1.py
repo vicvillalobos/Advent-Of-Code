@@ -1,5 +1,5 @@
 from task_2023_1_1 import execute as tb1ex
-from task_2023_1_2 import execute as tb2ex, wordProcessing
+from task_2023_1_2 import execute as tb2ex, word_processing
 
 
 def test_part_one():
@@ -8,25 +8,25 @@ def test_part_one():
     assert tb1ex("2023/1/example_1.csv")[0] == 142
 
 def test_wordProcess():
-    # Testing wordProcessing function with different case values
-    assert wordProcessing("asdasd") == 0
-    assert wordProcessing("asdasdas5") == 55
-    assert wordProcessing("1") == 11
-    assert wordProcessing("11") == 11
-    assert wordProcessing("289") == 29
-    assert wordProcessing("one1") == 11
-    assert wordProcessing("one2") == 12
-    assert wordProcessing("onetwo") == 12
-    assert wordProcessing("one3two") == 12
-    assert wordProcessing("one3three2two") == 12
-    assert wordProcessing("oneight") == 18
-    assert wordProcessing("twone3") == 23
-    assert wordProcessing("twone") == 21
-    assert wordProcessing("tthreeeoneoneight") == 38
-    assert wordProcessing("8mnlsqkpqp18jkftxzfcklsgkvjr4threergdbrrzbb") == 83
-    assert wordProcessing("hlrbll8vnhjlfjrkd") == 88
-    assert wordProcessing("twoneighthree") == 23
-    assert wordProcessing("8hbmfjxmqckxqrdjqxrnhg") == 88
+    # Testing word_processing function with different case values
+    assert word_processing("asdasd") == 0
+    assert word_processing("asdasdas5") == 55
+    assert word_processing("1") == 11
+    assert word_processing("11") == 11
+    assert word_processing("289") == 29
+    assert word_processing("one1") == 11
+    assert word_processing("one2") == 12
+    assert word_processing("onetwo") == 12
+    assert word_processing("one3two") == 12
+    assert word_processing("one3three2two") == 12
+    assert word_processing("oneight") == 18
+    assert word_processing("twone3") == 23
+    assert word_processing("twone") == 21
+    assert word_processing("tthreeeoneoneight") == 38
+    assert word_processing("8mnlsqkpqp18jkftxzfcklsgkvjr4threergdbrrzbb") == 83
+    assert word_processing("hlrbll8vnhjlfjrkd") == 88
+    assert word_processing("twoneighthree") == 23
+    assert word_processing("8hbmfjxmqckxqrdjqxrnhg") == 88
 
 def test_part_two_example_2():
     # Testing trebuchet_2 with the provided example values

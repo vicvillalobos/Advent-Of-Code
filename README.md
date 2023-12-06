@@ -11,7 +11,7 @@ To run a challenge, run the following command (linux only):
 ```
 
 ## Requirements
-I only use `pytest` so far. Requirements are installed in the dockerfile.
+I only use `pytest` and `alive_progress` so far. Requirements are installed in the dockerfile.
 
 ## Testing
 To run the tests, run the following command (linux only):
